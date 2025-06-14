@@ -1,4 +1,4 @@
-FROM vllm/vllm-openai:v0.6.0
+FROM docker.1ms.run/vllm/vllm-openai:latest
 
 COPY . /opt/inference
 WORKDIR /opt/inference
